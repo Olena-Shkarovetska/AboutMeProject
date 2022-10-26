@@ -27,10 +27,11 @@ h3 {
 
 .navigation-links {
   display: flex;
-  justify-content: space-evenly;
-  padding: 30px;
-  margin-left: 200px;
-  margin-right: 200px;
+  justify-content: center;
+}
+
+.navigation-links a {
+    margin: 20px;
 }
 
 .contact-link {
