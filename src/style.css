@@ -4,8 +4,11 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
+
+
 body {
   margin: 0 auto;
+  
 }
 
 h1,
@@ -17,6 +20,7 @@ h3 {
 h2 {
   display: block;
   font-size: 48px;
+  margin-top: 68px;
 }
 
 h1 {
@@ -120,4 +124,18 @@ h3 {
 
 .primary-link:hover {
   color: var(--secondary-color);
+}
+
+@media (max-width: 600px) {
+  h1 {
+     font-size: 48px;
+  }
+
+  h2 {
+    font-size: 38px;
+  }
+
+  .primary-link-mobile {
+    text-align: center;
+  }
 }
